@@ -9,7 +9,7 @@
 }
 
 .body {
-	background: rgb(230, 230, 228);
+	background: hsl(210, 46%, 95%);
 	padding: 20% 7.5%;
 	display: grid;
 	gap: 25px;
@@ -20,6 +20,9 @@
 	padding: 20px;
 	align-items: center;
 	justify-content: center;
+	box-shadow: 2px 3px 9px 0px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: 2px 3px 9px 0px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 2px 3px 9px 0px rgba(0, 0, 0, 0.2);
 }
 
 .block:first-child {
@@ -87,15 +90,14 @@ h3 {
 	.body {
 		display: grid;
 		grid-template-columns: repeat(4, 1fr);
-		grid-auto-rows: 50% 47%;
+		grid-auto-rows: 49% 46%;
 		grid-template-areas:
 			'Daniel Daniel Jonathan Kira'
 			'Jeanette Patrick Patrick Kira';
-		padding: 5% 10%;
+		padding: 10% 10%;
 		height: 90%;
 		gap: 24px;
 		width: 100%;
-		overflow: hidden;
 	}
 	.block {
 		height: 100%;
