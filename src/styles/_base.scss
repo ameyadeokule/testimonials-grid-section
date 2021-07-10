@@ -1,0 +1,112 @@
+:root {
+  // Colors
+  --color-white: #ffffff;
+  --color-violet-52: hsl(263, 55%, 52%);
+  --color-blue-14: hsl(219, 29%, 14%);
+  --color-blue-35: hsl(217, 19%, 35%);
+  --color-gray-81: hsl(0, 0%, 81%);
+  --color-gray-95: hsl(210, 46%, 95%);
+
+  // Font Weights
+  --weight-mid: 500;
+  --weight-semi-bold: 600;
+
+  // Design elements
+  --transition: 300ms ease-in-out;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+html, body, #root, .App {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-size: 1.3rem;
+  letter-spacing: 0;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  background-color: var(--color-gray-95);
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+.container {
+  padding: 7.1rem 2.4rem;
+  transition: var(--transition) padding;
+  @media (min-width: 768px) {
+    padding-left: 4.8rem;
+    padding-right: 4.8rem;
+  }
+  @media (min-width: 1200px) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  @media (min-height: 900px) {
+    padding-top: 16.4rem;
+    padding-bottom: 16.4rem;
+  }
+}
+
+// Font specs
+.t-h2 {
+  font-size: 2rem;
+  line-height: 2.4rem;
+  letter-spacing: .047px;
+  font-weight: var(--weight-semi-bold);
+}
+
+.t-body {
+  font-size: 1.3rem;
+  line-height: 1.8rem;
+  letter-spacing: .03px;
+  font-weight: var(--weight-mid);
+}
+
+.t-name {
+  font-size: 1.3rem;
+  line-height: 1.3rem;
+  font-weight: var(--weight-mid);
+}
+
+.t-title {
+  font-size: 1.1rem;
+  line-height: 1.1rem;
+  font-weight: var(--weight-mid);
+}
+
+// text color
+.t-white {
+  color: var(--color-white);
+}
+
+.t-blue {
+  color: var(--color-blue-35);
+}
+
+.t-light-gray {
+  color: var(--color-gray-95);
+}
+
+// text opacity
+.t-op50 {
+  opacity: .50;
+}
+
+.t-op70 {
+  opacity: .70;
+}
