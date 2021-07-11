@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/testimonials-grid-section/static/css/main.a2442a35.chunk.css",
+    "main.js": "/testimonials-grid-section/static/js/main.8de18108.chunk.js",
+    "main.js.map": "/testimonials-grid-section/static/js/main.8de18108.chunk.js.map",
+    "runtime-main.js": "/testimonials-grid-section/static/js/runtime-main.db8e46c8.js",
+    "runtime-main.js.map": "/testimonials-grid-section/static/js/runtime-main.db8e46c8.js.map",
+    "static/js/2.9853c1bb.chunk.js": "/testimonials-grid-section/static/js/2.9853c1bb.chunk.js",
+    "static/js/2.9853c1bb.chunk.js.map": "/testimonials-grid-section/static/js/2.9853c1bb.chunk.js.map",
+    "index.html": "/testimonials-grid-section/index.html",
+    "static/css/main.a2442a35.chunk.css.map": "/testimonials-grid-section/static/css/main.a2442a35.chunk.css.map",
+    "static/js/2.9853c1bb.chunk.js.LICENSE.txt": "/testimonials-grid-section/static/js/2.9853c1bb.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/testimonials-grid-section/static/media/bg-pattern-quotation.6b460e30.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.db8e46c8.js",
+    "static/js/2.9853c1bb.chunk.js",
+    "static/css/main.a2442a35.chunk.css",
+    "static/js/main.8de18108.chunk.js"
+  ]
+}
