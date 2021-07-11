@@ -50,7 +50,7 @@ Users should be able to:
 
 ### Continued development
 
-Covert the design to use Material UI and/or TailwindCSS
+Covert the design to use Material UI and/or TailwindCSS and convert the project into ReactJS
 
 ### Useful resources
 
